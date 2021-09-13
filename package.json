@@ -1,0 +1,30 @@
+{
+  "name": "ggrks",
+  "version": "1.0.0",
+  "description": "A bot to screenshot google results directly to the channel",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/P1X3LD3M0N/ggrks-bot.git"
+  },
+  "author": "Aditya Chakravarthi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/P1X3LD3M0N/ggrks-bot/issues"
+  },
+  "homepage": "https://github.com/P1X3LD3M0N/ggrks-bot#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.6.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.23.1",
+    "discord.js": "^13.1.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "nodemon": "^2.0.12"
+  }
+}
