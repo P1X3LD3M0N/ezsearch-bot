@@ -1,21 +1,21 @@
 {
-  "name": "ggrks",
-  "version": "1.0.0",
-  "description": "A bot to screenshot google results directly to the channel",
+  "name": "ezsearch",
+  "version": "1.0.1",
+  "description": "A bot to screenshot google or yahoo results directly to the channel",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/P1X3LD3M0N/ggrks-bot.git"
+    "url": "git+https://github.com/P1X3LD3M0N/ezsearch-bot.git"
   },
   "author": "Aditya Chakravarthi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/P1X3LD3M0N/ggrks-bot/issues"
+    "url": "https://github.com/P1X3LD3M0N/ezsearch-bot/issues"
   },
-  "homepage": "https://github.com/P1X3LD3M0N/ggrks-bot#readme",
+  "homepage": "https://github.com/P1X3LD3M0N/ezsearch-bot#readme",
   "dependencies": {
     "@discordjs/builders": "^0.6.0",
     "@discordjs/rest": "^0.1.0-canary.0",
