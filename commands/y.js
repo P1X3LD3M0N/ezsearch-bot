@@ -4,8 +4,8 @@ const puppeteer = require('puppeteer');
 var { width, height } = require('C:/Users/Garuda Prasad G K/Desktop/Assignments/GGRKS/config.json');
 
 module.exports = {
-    name: 'g',
-    description: 'google a query and send a screenshot!',
+    name: 'y',
+    description: 'yahoo search a query and send a screenshot!',
     execute(message, args) {
         let search = '';
         for (let i = 0; i < args.length; i++) {
@@ -22,7 +22,7 @@ module.exports = {
                 search += args[i] + '+';
           }
 
-          var url = ('https://google.com/search?q=' + search);
+          var url = ('https://in.search.yahoo.com/search?q=' + search);
           var check = 0;
           (async () => {
             const browser = await puppeteer.launch();
